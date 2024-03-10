@@ -1,0 +1,15 @@
+The interesting line range starts below...
+
+-- BEGIN INTERESTING LINE RANGE --
+Question: does the word foo exist in the interesting line range? Answer it with
+the global command!
+
+foo
+bar
+baz
+foo
+bar
+baz
+--  END INTERESTING LINE RANGE  --
+
+The interesting line range ended above!

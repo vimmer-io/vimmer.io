@@ -1,0 +1,16 @@
+
+Start recording into the "x register with:
+
+    qx (normal mode)
+
+Then, perform a few edits!
+Once you're done, stop recording with:
+
+    q (normal mode)
+
+Now, inspect the contents of the "x register with:
+
+    :reg x
+
+Notice that it contains exactly the keystrokes that you inputted.
+:-)

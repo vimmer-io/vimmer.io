@@ -1,0 +1,14 @@
+This file is called "demo".
+
+There are some other files on the filesystem:
+
+- a.txt
+- b.txt
+- c.txt
+
+Try opening them using a combination of split commands. For example, try
+something like:
+
+    :split a.txt
+    :split b.txt
+    :vsplit c.txt

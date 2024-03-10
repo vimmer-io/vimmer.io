@@ -1,0 +1,28 @@
+
+I use the space bar as my leader key:
+
+    let mapleader=' '
+
+I disable the Q key, because I find myself hitting in by accident too often:
+
+    " Disable ex mode.
+    nnoremap Q <nop>
+
+I don't like how the n and N keys behave differently depending on which
+direction you started the search. If you start a search with /, n means go
+downwards, but if you start the search with ?, n means go upwards. The
+following maps normalise the search direction behaviour so that n always takes
+you downwards and N always moves you upwards:
+
+    nnoremap <expr> n (v:searchforward ? 'n' : 'N')
+    nnoremap <expr> N (v:searchforward ? 'N' : 'n')
+    onoremap <expr> n (v:searchforward ? 'n' : 'N')
+    onoremap <expr> N (v:searchforward ? 'N' : 'n')
+    xnoremap <expr> n (v:searchforward ? 'n' : 'N')
+    xnoremap <expr> N (v:searchforward ? 'N' : 'n')
+
+I use <leader>h to toggle whether or not search results are highlighted:
+
+    nnoremap <leader>h :set hlsearch! hlsearch?<cr>
+
+Hopefully this illustates how powerful maps can be!

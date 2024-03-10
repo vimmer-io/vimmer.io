@@ -1,0 +1,10 @@
+The tag stack is used to keep track of where you last performed a jump to tag
+-- which is normally a jump to definition in the programmer lexicon.
+
+For the words below, use <C-]> in normal mode to jump to their definitions.
+
+foo
+
+bar
+
+baz

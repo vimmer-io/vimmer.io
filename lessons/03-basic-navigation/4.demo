@@ -1,0 +1,9 @@
+This is an example paragraph -- feel free to play around in it. Try adding
+counts to your motions by typing a number before hitting the command key. For
+example, if you want to move down 10 lines, try typing 5j. Or, if you want to
+jump to the second instance of X on the right from the current cursor position,
+try typing 2fX.
+
+If this is cool to you, also know that the insert commands accept counts! For
+example, try typing: 10Ahello then hit ESC. Vim will append the string
+"hello" to the end of your current line ten times!

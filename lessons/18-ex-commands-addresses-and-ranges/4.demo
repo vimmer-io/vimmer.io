@@ -1,0 +1,26 @@
+Let's experiment!
+
+
+
+This is line 5.
+
+Let's try deleting everything from line 5 to line 10 with :5,10d. Give it a
+try, and this text should disappear.
+
+This is line 10.
+
+
+
+
+START
+This is some text that exists between some special delimters. We can delete
+everything within the delimiters by using a search pattern as part of our
+range. Your command should look something like :/foo/,/bar/d, but using the
+delimiters at the top and bottom of this section instead of foo and bar.
+END
+
+
+
+
+Finally, once you've done the above sections, let's delete everything in this
+file with %d.

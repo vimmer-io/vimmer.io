@@ -1,0 +1,11 @@
+
+You know the drill:
+
+- record into the "a register with qa
+- do some stuff
+- stop recording
+- replay your macro a few times
+- start appending to the "a register with qA
+- do some stuff
+- stop recording
+- replay your macro again

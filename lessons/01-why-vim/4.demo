@@ -1,0 +1,29 @@
+Just a few examples to give you a taste.
+
+| represents the cursor position.
+
+DELETING SENTENCES:
+   Hello world. My name is Joe. I am a| software engineer. I like writing code.
+-> Hello world. My name is Joe. |I like writing code.
+
+
+SORTING LINES AND REMOVES DUPLICATES:
+   foo
+   bar
+   baz
+   foo|
+   quux
+   bar
+
+-> bar
+   baz
+   foo
+   quux
+
+
+MAKING EVERYTHING INSIDE THE QUOTES UPPERCASE:
+
+   Everything| inside becomes uppercase: "hello world"
+-> Everything inside becomes uppercase: "|HELLO WORLD"
+
+

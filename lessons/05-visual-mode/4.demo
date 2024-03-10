@@ -1,0 +1,24 @@
+Try deleting a visual selection in the line below:
+
+    Visually select some words and delete them with x or d!
+
+
+
+
+
+Try changing a visual selection in the line below:
+
+    Visually select some words and change them with c!
+
+
+
+
+
+Try selecting a bunch of lines with visual line mode, and indenting them
+forwards and backwards with < and >.
+
+    Indenting lines is something that programmers especially find themselves
+    doing often. Indenting is all about increasing the amount of whitespace at
+    the start of the line. This paragraph, for example, is already indented.
+    Visually select some lines in this paragraph (using visual line mode), and
+    use < or > to indent them backwards or forwards respectively.

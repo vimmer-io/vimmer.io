@@ -1,0 +1,12 @@
+
+print("This is some code in a random programming language.")
+print("Some lines end with a semicolon, some are missing.");
+print("Your task is, using the global command, to find the missing semicolons and add them")
+print("Good luck!");
+
+a := 1
+b := 41;
+c := 99
+x := 123
+y := 456;
+z := 99

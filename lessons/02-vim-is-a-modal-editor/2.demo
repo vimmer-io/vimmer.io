@@ -1,0 +1,5 @@
+Try clicking this window and typing your name.
+
+It probably doesn't do what you're expecting -- that's because Vim is a modal
+editor, and the default mode is "normal" mode, which is not designed for
+entering text.

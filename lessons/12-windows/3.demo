@@ -1,0 +1,14 @@
+Try using :split/:vsplit a few times to create some windows that are all
+peering into this buffer.
+
+For example, you can run:
+
+    :vsplit
+    :split
+    :split
+
+...
+
+Once you've got a few windows open, try making an edit -- maybe try typing your
+name or deleting a line. You should see your change be reflected in all of the
+windows!

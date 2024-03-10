@@ -1,0 +1,17 @@
+For each of the lines below, place your cursor on the line and run the
+appropriate Ex command.
+
+
+
+
+
+try PRINTING me with the :print (or just :p) command
+
+try MOVING me to line 0 with the :move (or just :m) command (tip: :move 0)
+
+try COPYING me to line 0 with the :copy (or just :t) command (tip: :copy 0)
+
+try DELETING me with the :delete (or just :delete) command
+
+try YANKING me with the :yank (or just :y) command, then try PUTTING with :put
+

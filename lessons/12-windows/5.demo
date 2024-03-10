@@ -1,0 +1,12 @@
+This time, instead of using window commands to create/close windows, we're
+going to use Vim's built-in window mappings. These are a lot quicker once
+you've integrated them into muscle memory.
+
+First, create a few horizontal and vertical splits with:
+
+    <C-w>s
+    <C-w>v
+
+Then, once you're done, try closing them down with:
+
+    <C-w>c

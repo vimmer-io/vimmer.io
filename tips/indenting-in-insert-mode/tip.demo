@@ -1,0 +1,6 @@
+
+On the line below, enter insert mode and use <C-t> and <C-d> to indent the
+line forwards and backwards respectively.
+
+    Hello world!
+

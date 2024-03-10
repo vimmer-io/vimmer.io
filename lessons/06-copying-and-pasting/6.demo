@@ -1,0 +1,10 @@
+
+Yank the first line, then delete the subsequent lines with dd.
+
+        YANK ME, then DELETE ME! I'm super yankable.
+        Delete me!
+        Delete me too!
+        Delete me three!
+
+Now, try putting from the zero register by typing "0p below:
+

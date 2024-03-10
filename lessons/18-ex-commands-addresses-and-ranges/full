@@ -1,0 +1,235 @@
+# Vim's history
+
+Vim has a rich history, and a lot of the powerful functionality in Vim today
+has been passed down from its ancestors. This is the kind of stuff that you've
+probably never thought about learning in depth, but rest assured: having a
+solid understanding will massively up your Vim game.
+
+Before we learn about these features and how to use them, let's briefly dive
+into Vim's history for some context.
+
+# The history of Vim
+
+## ed
+
+We start our tour through Vim's bloodline with a little-known editor called
+[ed](https://en.wikipedia.org/wiki/Ed_(text_editor)). ed is a line editor for
+UNIX, and it was one of the first components of the original UNIX operating
+system developed back in 1969. ed is very different to the editors we use
+today: it's entirely command based, and doesn't provide the user with any
+immediate visual feedback on the text that they're modifying.
+
+That's right — ed is a _line_ editor, not _text_ editor. It doesn't give the
+user a way of editing the contents of a line directly. If you want to change
+the contents of a line, you have to use a substitution command (very much like
+Vim's `:substitute`).
+
+All of this is to say that ed is not user-friendly. Hardly anybody uses it any
+more, save for a few old shell scripts.
+
+## ex and vi
+
+The next editor of note is
+[ex](https://en.wikipedia.org/wiki/Ex_(text_editor)). ex, short for EXtended,
+is another line editor for UNIX. As the name suggests, it's an extended version
+of ed that's more user friendly.
+
+Somewhere along the line, though, somebody realised that editing files without
+immediate visual feedback is not scalable. ex is important in this regard
+because it was eventually given a full-screen visual interface (on top of its
+command-based way of working). To drop into this visual interface, you would
+type `visual` from ex's command line mode — or just `vi` for short.
+
+Indeed, the [vi](https://en.wikipedia.org/wiki/Vi) editor was born out of ex.
+When ex was given its visual interface, the _vi_ text editor sprung into
+existence. vi and ex actually share the same code — vi, the binary, is just
+launching ex into visual mode!
+
+## Vim
+
+Bram Moolenaar began working on Vim for the Amiga computer in 1988, with the
+first public release in 1991. At the time of its release, Originally, Vim meant
+"Vi IMitation", but nowadays it's thought of as "Vi IMproved".
+
+Vim added a lot of new features to vi, including windows, syntax highlighting,
+Vimscript, and much more. It elevated vi from being a simple text editor to the
+powerhouse we know today. And in fact, Vim was not just inspired by vi — in
+the early days, Vim was recognisably a fork of vi, sharing some of its code.
+Vim has come so far since then that the code bears little resemblance today,
+but it's true that Vim is a derivative of vi.
+
+## Neovim
+
+We'll talk more about Neovim in another post. But, as a quick introduction,
+Neovim is a fork of Vim that seeks to aggressively refactor the Vim codebase,
+simplify maintenance, encourage contributions, and maximise extensibility.
+
+Anyone brave enough to delve into Vim's codebase will tell you that it's quite
+harrowing. A lot of its complexity comes from the fact that Vim uses feature
+flags to guard optional functionality, and the fact that Vim has to remain
+compatible with many different platforms. Neovim doesn't fight these battles —
+it builds all features in by default, and has much more lenient compatibility
+constraints.
+
+In my opinion, Neovim is shaping up to be the next generation of Vim editing,
+competing with fully-fledged IDEs without compromising on Vim's core values.
+
+I'm personally a huge fan, and I use Neovim full time these days.
+
+# Why is this relevant?
+
+Vim was not made in a vacuum. It has traces of projects that came before it,
+all of which had some pretty great ideas about how text editing should be done.
+Features from earlier editors are still around in Vim today, and you've
+probably been using some of them without realising.
+
+In this article, we're going to focus specifically on what Vim calls "Ex
+commands". As we learned earlier, ex had a unique paradigm for editing text
+that was command-based rather that visual. These commands can still be used
+from within Vim today.
+
+It's hard to imagine writing code with _just_ line commands, like in the ed
+days. But the right Ex commands in the right order can genuinely save you hours
+of manual editing.
+
+# Issuing Ex commands
+
+You issue Ex commands using the Vim command line, accessed through `:` in
+normal mode. Many of the commands that you use on a day-to-day basis might be
+inherited Ex commands.
+
+To show you how ubiquitous they are: if you know how to write a buffer to a
+file in Vim (hint: `:w`), congratulations! You've been using Ex commands all
+along. To be precise, `:w` is an Ex command that is usually used to write the
+contents of the buffer to a file.
+
+# Commands
+
+There are lots of Ex commands — far too many to enumerate here — but here are
+a few that are useful time and time again:
+- `:print`, or just `:p` for short, is used to print a line to Vim's output
+- `:move`, or just `:m` for short, is used to move a line/range from a source
+  to a target
+- `:copy`, or just `:t` for short, is used to copy a line/range from a source
+  to a target
+- `:delete`, or just `:d` for short, is used to delete a line/range
+- `:yank`, or just `:y` for short, is used to yank a line/range to a register
+- `:substitute`, or just `:s` for short, is used for performing text
+  substitutions with regular expressions
+
+# Addresses and ranges
+
+Most Ex commands can be optionally preceded by either an address or range that
+the command should operate on. An address is just a line specifier — they're
+used to tell Vim "I'm talking about this line". A range, on the other hand, is
+used to tell Vim "I'm talking about this _range_ of lines". A range is
+specified as two addresses — the lines between the two addressed lines
+(inclusive) constitute the range.
+
+## Addresses
+
+To specify an address, you prefix the command like so:
+
+    :[address]command
+
+If `command` supports an address, this will cause it to operate on the address
+you've specified.
+
+For example, if you wanted to delete the 10th line in the buffer, you could use:
+
+    :10d
+
+The most basic example of an address is a literal line number, like what we've
+done above. But there are various 'special' addresses that are well worth
+remembering. The most useful ones are:
+
+- `.`, which represents the current line
+- `$`, which represents the last line in the file — for example, `:$d` deletes
+  the last line in the buffer
+- `'t`, which represents the line that mark `t` is set to
+- `/foo/`, which represents the next line where `foo` matches (relative to the
+  cursor position) — for example, `:/foo/d` deletes the next line where the
+  text `foo` appears
+- `?foo?`, which represents the previous line where `foo` matches (relative to
+  the cursor position) — for example, `:?foo?d` deletes the previous line
+  where the text `foo` appears
+- You can offset an address with a positive or negative number, e.g. `:+1d`
+  deletes the line one below the cursor, and `:-1d` deletes the line one before
+  the cursor
+
+Furthermore, you can _chain_ them for some interesting results. For example:
+
+- `:/foo/+2d` deletes the line that is two lines _below_ the next match of
+  `foo`.
+- `:0/import/d` deletes the first line in the buffer that contains the word
+  `import`.
+- `:/foo/?bar?d` jumps to the next match of `foo`, then jumps _back_ from there
+  to the previous match of `bar`, then deletes that line.
+
+Addresses can be used to precisely specify lines.
+
+## Ranges
+
+To specify an range, you prefix the command like so:
+
+    :[address1],[address2]command
+
+If `command` supports an range, this will cause it to operate on the range
+you've specified. The range is inclusive, so the range `1,3` will operate over
+lines 1, 2, and 3.
+
+For example, if you wanted to delete the first ten lines in the buffer, you
+could use:
+
+    :1,10d
+
+There is only one special range, and it's one that you might have seen before:
+`%`. The `%` range is a synonym for `1,$` — that is, it captures all of the
+lines in the buffer. For example, `:%d` will delete all of the lines in the
+buffer (if you're feeling bold).
+
+The great thing about ranges is that the upper and lower bounds are just
+addresses. You can use all of the powerful Ex mode addressing tricks we've
+discussed above to specify a range! For example:
+
+- `:/foo/,/bar/d` will move to the next line matching `foo` and delete from
+  there until the next line matching `bar`
+- `:/foo/+1,/bar/-1d` will do the same as above, but won't delete the `foo` and
+  `bar` lines.
+
+## Default ranges
+
+If you don't remember ever having encountered these addresses and ranges
+before, don't worry; Ex commands have _default_ addresses and ranges, so most
+of the time you don't have to think about the lines a command acts over.
+Without passing a range to a command, Vim _generally_ does the intuitive thing.
+For example, the default range for the `:d` (delete line) command is `.` — so
+running `:d` on its own will delete the line under the cursor.
+
+This leads us to an interesting fact: did you know that the `:w` command
+accepts a range? The default range for `:w` is all of the lines in the file.
+That makes sense; when you're using `:w`, you typically want to write the
+entire buffer content to disk. But if you were so inclined, you could specify a
+range to write a just one section of the file to disk. For example, `:1,10w
+foo` will write lines `1` through `10` to a file called `foo`. This can be
+useful if you have a large file that you want to break up into smaller
+sub-files.
+
+## Visual mode and the range operator
+
+You may have seen this weird thing before: `'<,'>`.
+
+What does _that_ mean?!
+
+Well, we're actually able to decipher that now. First, understand that Vim uses
+the `<` and `>` marks to represent the start and end of a visual selection
+respectively. If you highlight a range of lines, the `<` mark will be placed at
+the start of your visual selection and the `>` mark the end.
+
+Now recall that `'t` is a special address that specifies the line of mark `t`.
+
+Putting these two facts together, we understand that `'<,'>` is a range that
+represents the current (or previous) visual selection! That's why, if you're in
+visual mode and you type `:`, Vim will pre-populate the command line with
+`'<,'>`. It's because most of the time, if you're issuing an Ex command from
+visual mode, you want to act over the selected region.

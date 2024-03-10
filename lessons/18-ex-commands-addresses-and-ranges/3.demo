@@ -1,0 +1,20 @@
+delete this line with :0d
+
+
+
+
+
+delete this line with :/FOO/d
+
+
+
+
+
+BAR
+delete this line with :/BAR/+1d
+
+
+
+
+
+delete this line with :$d

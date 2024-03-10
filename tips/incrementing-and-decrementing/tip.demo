@@ -1,0 +1,10 @@
+package shared
+
+import "os"
+
+const (
+	defaultHost = "foobar.svc.cluster.local"
+	defaultPort = ":1234" // <-- change this port number!
+)
+
+// ...

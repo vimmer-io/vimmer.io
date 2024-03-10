@@ -1,0 +1,36 @@
+Try:
+
+    :g/GET/visual | w
+
+{
+    path: "/some_get_request",
+    type: "GET",
+}
+{
+    path: "/another_get_request",
+    type: "GET",
+}
+{
+    path: "/a_post_request",
+    type: "POST",
+}
+{
+    path: "/a_put_request",
+    type: "PUT",
+}
+{
+    path: "/foo",
+    type: "DELETE",
+}
+{
+    path: "/bar",
+    type: "DELETE",
+}
+{
+    path: "/baz",
+    type: "GET",
+}
+{
+    path: "/last",
+    type: "POST",
+}

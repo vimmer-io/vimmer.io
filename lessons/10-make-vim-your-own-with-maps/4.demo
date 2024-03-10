@@ -1,0 +1,9 @@
+Set the mapleader variable to space with:
+
+    :let mapleader = " "
+
+Then create a leader mapping -- for example:
+
+    :nnoremap <leader>h I- <esc>
+
+Then try out your mapping!

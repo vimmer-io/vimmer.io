@@ -1,0 +1,6 @@
+Do whatever you want! Type some text, delete something, change something --
+anything goes.
+
+Then use the u command to walk back to the state you were in before.
+
+Once you've done that, try using <C-r> to go in the opposite direction.

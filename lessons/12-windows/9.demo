@@ -1,0 +1,8 @@
+
+Try opening a new file in a new window/split with either:
+
+    :new
+    
+    or
+
+    <C-w>n

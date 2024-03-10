@@ -1,0 +1,11 @@
+First things first, let's use the :ls command to see which buffers we have
+open. There should only be "demo" to begin with.
+
+There are three other files here: a.txt, b.txt, and c.txt. Try opening them
+with:
+
+    :e a.txt
+    :e b.txt
+    :e c.txt
+
+Then try listing your buffers with :ls again!

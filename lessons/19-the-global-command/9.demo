@@ -1,0 +1,16 @@
+Try:
+
+    :v/\v^\s*-/-j
+
+to collapse the bullet points below. Make sure you visually select the bullet
+points first to restrict the inverse global command to a range of lines.
+
+- This is a toplevel bullet point. Typically these are quite short, but they
+  might span multiple lines, like this one.
+  - This is a nested bullet point.
+  - This is also a nested bullet point, but it spans multiple lines -- as you
+    can see.
+- This is another toplevel bullet point, only spanning one line this time.
+  - Finally, this is another super-duper long nested bullet point. I'm just
+    making stuff up to get it to wrap over multiple lines at this point. I
+    promise that this happens all the time when I'm actually taking notes.

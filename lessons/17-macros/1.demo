@@ -1,0 +1,17 @@
+
+To record a macro, type:
+
+    q<macro name>
+
+So, to record a macro called 'a', type:
+
+    qa
+
+Then make some edits!
+
+When you've finished making the edits, hit the q key again to stop
+recording.
+
+All of the keystrokes that you made during the recording period will
+be saved, and we'll learn how to replay them again in the next
+section.

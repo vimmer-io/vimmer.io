@@ -1,0 +1,13 @@
+
+# place a mark on the line below with mm, then jump to the bottom with G
+function interesting_function() {
+    print("Could the bug be lurking here?")
+    print("Probably not.")
+}
+
+
+
+print("There's some more print statments down here.")
+print("Blah blah blah...")
+
+# Now try jumping back to your mark with 'm

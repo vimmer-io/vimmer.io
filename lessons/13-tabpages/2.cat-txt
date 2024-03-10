@@ -1,0 +1,17 @@
+
+           _    _        _
+  ___ __ _| |_ | |___  _| |_
+ / __/ _` | __|| __\ \/ / __|
+| (_| (_| | |_ | |_ >  <| |_
+ \___\__,_|\__(_)__/_/\_\\__|
+
+---
+
+Now, open all of the `*.txt` files in a new split with:
+
+    :args *.txt
+    :all
+
+... then try experimenting with:
+
+    :tab sp

@@ -1,0 +1,7 @@
+This is the first paragraph. Visually select it, then re-enter normal mode.
+Then, try manually typing :'<,'>d from normal mode. You'll see that the
+paragraph disappears, even though you aren't in visual mode any more!
+
+This is because Vim preserves the values of the '< and '> marks, even if
+you're not in visual mode any more. This is useful in some circumstances, and
+it's actually instrumental in making the gv keybind work.

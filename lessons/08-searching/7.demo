@@ -1,0 +1,14 @@
+First, turn on smartcase:
+
+    :set ignorecase
+    :set smartcase
+
+Then, try searching for "needle" below. You'll notice that it highlights all of
+the words.
+
+Then, try searching for "Needle". It'll start doing a case sensitive search!
+
+needle
+Needle
+needle
+Needle

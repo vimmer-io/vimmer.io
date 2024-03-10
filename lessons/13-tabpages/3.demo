@@ -1,0 +1,14 @@
+
+First, open up some new tabpages.
+
+    :tabnew
+    :tabnew
+    :tabnew
+    :tabnew
+    :tabnew
+
+... then try switching between them with:
+
+    gt
+    gT
+    [count]gt

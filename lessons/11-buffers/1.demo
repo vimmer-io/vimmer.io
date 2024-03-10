@@ -1,0 +1,9 @@
+This file is called "demo" -- you can see the filename in the bottom left of
+the editor.
+
+Try using the :e command to open the other file called "myfile". The command
+you need to use is:
+
+    :e myfile
+
+See you there!

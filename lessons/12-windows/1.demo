@@ -1,0 +1,8 @@
+This file is called "demo".
+
+Try using the :split command to open the other file called "myfile". The
+command you need to use is:
+
+    :split myfile
+
+The new file should appear above!

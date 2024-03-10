@@ -1,0 +1,13 @@
+Try out the keymaps on the text below:
+
+    This is a paragraph. It consists of four sentences. You can select a single
+    sentence with vis, and the entire paragraph with vip. Pretty useful if you
+    ask me!
+
+    "This is a quoted string. Try selecting the contents of these quotes!"
+
+    {
+        // This is a code block. Try selecting everything within this
+        // codeblock!
+        print("Hello world.");
+    }

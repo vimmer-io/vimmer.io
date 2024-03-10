@@ -1,0 +1,5 @@
+
+First, open foo.txt, bar.txt, and baz.txt with:
+
+    :args *.txt
+    :tab all

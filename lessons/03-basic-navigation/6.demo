@@ -1,0 +1,27 @@
+(
+    This text exists inside some brackets!
+)
+
+{
+    (This text exists inside two nested brackets!)
+}
+
+
+
+
+
+Oh man... and look at this mess. Which bracket matches which?!
+Use % to find out!
+
+( ( (
+{ {
+{ [
+[ [ (
+(
+)) ]
+]
+] } } }
+))
+)
+
+... no problem!

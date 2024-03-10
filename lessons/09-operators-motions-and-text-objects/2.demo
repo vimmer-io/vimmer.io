@@ -1,0 +1,15 @@
+Try using the d operator in conjunction with the ap text object to delete the
+paragraphs below.
+
+    We're now at a point where people start to see the true power and beauty of
+    Vim. It's not just a tool for editing text, it's a language for editing
+    text. The better you can speak the language, the better you can edit text.
+
+    Expert Vimmers no longer think about the individual characters -- they
+    think in terms of higher-level objects, like sentences, paragraphs, blocks
+    of code, and so forth.
+
+    A good grasp of Vim's command language will allow you to quick and easily
+    perform edits that would take much longer in other editors.
+
+    It'll be worth it!

@@ -1,0 +1,16 @@
+
+Open up a bunch of windows with some combination of:
+
+    :split
+    :vsplit
+    <C-w>s
+    <C-w>v
+
+then try moving the cursor between windows with these movement commands:
+
+    <C-w>h (move left)
+    <C-w>j (move down)
+    <C-w>k (move up)
+    <C-w>l (move right)
+
+(the arrow keys also work if you don't like hjkl!)

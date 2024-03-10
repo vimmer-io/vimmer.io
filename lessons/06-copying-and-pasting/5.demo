@@ -1,0 +1,14 @@
+Try yanking each of the lines into the appropriate letters, then putting them
+back in a different order.
+
+Remember -- use "ayy to copy the line into the "a register, "byy to copy the
+line into the "b register, etc. Then use "ap to put the a registers, "bp to put
+the b register, etc.
+
+    COPY ME INTO THE "a REGISTER
+    COPY ME INTO THE "b REGISTER
+    COPY ME INTO THE "c REGISTER
+    COPY ME INTO THE "d REGISTER
+
+    vv PUT THE LINES IN A DIFFERENT ORDER BELOW vv
+

@@ -1,0 +1,15 @@
+First off -- open a bunch of windows, each peering into a different file, with:
+
+    :args *.txt
+    :all
+
+Then try rearranging them to til your heart's content with the following commands!
+
+    <C-w>H    to move the current window all the way to the left
+    <C-w>J    to move the current window all the way to the bottom
+    <C-w>K    to move the current window all the way to the top
+    <C-w>L    to move the current window all the way to the right
+
+    <C-w>x    exchange the current window with the next one, or the previous
+              window if no next window exists.
+    <C-w>r    'rotate' the windows around.

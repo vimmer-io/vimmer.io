@@ -1,0 +1,13 @@
+Try deleting all of the lines that contain foo, but _not_ bar, using a chained
+global command.
+
+foo bar
+foo baz
+foo quux
+bar quux
+bar foo bar
+foo baz baz
+quux bar quux
+quux quux
+foo bar quux
+quux bar

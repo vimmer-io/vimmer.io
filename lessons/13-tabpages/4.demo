@@ -1,0 +1,15 @@
+
+Try opening a bunch of new tabpages with:
+
+    :tabnew
+    :tabnew
+    :tabnew
+    :tabnew
+
+Then try closing the _current_ tabpage with:
+
+    :tabclose
+
+Then try closing the second tabpage with:
+
+    :2tabclose

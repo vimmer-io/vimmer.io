@@ -1,0 +1,5 @@
+
+Type g?ip inside this paragraph to ROT13 encode the text! ROT13 works by
+replacing each letter with the 13th letter after it in the alphabet. It's
+therefore pretty useless as a cipher, so who knows why there is an operator for
+it in Vim.

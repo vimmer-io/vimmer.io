@@ -1,0 +1,9 @@
+
+This is a test document for you to practice completion in.
+
+In insert mode, start typing a word and then hit <C-n>. This will reveal a
+completion popup. You can cycle through the options with <C-n> and <C-p> to
+move forward and backward respectively.
+
+Since this buffer is the only buffer open, completion will only search for
+words inside this buffer.

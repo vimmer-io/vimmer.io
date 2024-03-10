@@ -1,0 +1,4 @@
+Use vi" and va" to understand the difference between inner and outer text
+objects using the quoted string below.
+
+    Here's your quoted string: "foo bar baz"

@@ -1,0 +1,9 @@
+On the lines below, enter insert mode, then type 0 and hit <C-d> to delete all
+of the indentation!
+
+    This is an indented line.
+        This is an indented line.
+            This is an indented line.
+        This is an indented line.
+            This is an indented line.
+    This is an indented line.

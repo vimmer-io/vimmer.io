@@ -1,0 +1,11 @@
+
+func isComponentValid(component Component) bool {
+  switch  {
+  case component.Type == FIRST_PARTY_SERVICE:
+    return false
+  case component.Type == FIRST_PARTY_SYSTEM:
+  case component.Type == THIRD_PARTY_SERVICE:
+  case component.Type == THIRD_PARTY_SYSTEM:
+  default:
+  }
+}

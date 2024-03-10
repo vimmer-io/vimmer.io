@@ -1,0 +1,10 @@
+
+Create a blank line at the bottom of this buffer and type:
+
+    A!!!
+
+Yank it into the "x register with "xyy, then execute the "x register with @x.
+Congrats! You've just successfully stored and executed a macro without ever
+using Vim's recording functionality.
+
+

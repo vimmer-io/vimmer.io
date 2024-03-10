@@ -1,0 +1,9 @@
+
+Yank this line into the "x register with "xyy.
+
+Then, inspect the content of the "x register with:
+
+    :reg x
+
+Then, try clearing the "x register with qxq, and check that the register has
+been cleared with :reg x again.

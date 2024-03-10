@@ -1,0 +1,23 @@
+Try opening some splits a pre-determined size using:
+
+    [count]<C-w>s / <C-w>[count]s
+                 or
+    [count]<C-w>v / <C-w>[count]v
+
+Then, try resizing those splits with:
+
+    [count]<C-w><
+    [count]<C-w>>
+    [count]<C-w>+
+    [count]<C-w>-
+
+Then, try setting the size for those splits manually with:
+
+    [count]<C-w>|
+    [count]<C-w>_
+
+... finally, to get everything back to a sensible windowing configuration, try:
+
+    <C-w>=
+
+... you're a window-resizing machine!

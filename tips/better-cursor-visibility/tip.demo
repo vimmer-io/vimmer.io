@@ -1,0 +1,10 @@
+
+First enable cursorline with:
+
+    :set cul
+
+Then enable cursorcolumn with:
+
+    :set cuc
+
+Now it's much easier to see where the cursor is!

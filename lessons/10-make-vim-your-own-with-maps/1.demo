@@ -1,0 +1,5 @@
+To get a taste of what's possible, enter the following command:
+
+    :inoremap ' ''<left>
+
+Then try typing a single quote here:  

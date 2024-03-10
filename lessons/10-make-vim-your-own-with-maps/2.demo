@@ -1,0 +1,16 @@
+Try defining a normal mode map and an insert mode map with :nmap or :nnoremap, and
+:imap or :inoremap, then try using them.
+
+
+A good example for a normal mode map might be
+
+    nnoremap <cr> gg
+
+which makes the enter key jump to the top of the file.
+
+
+A good example for an insert mode map might be;
+
+    inoremap <space><space> .<space>
+
+which lets you type two spaces to enter a period.

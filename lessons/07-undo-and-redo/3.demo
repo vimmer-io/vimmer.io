@@ -1,0 +1,5 @@
+Try the workflow in this section below. In between writing the first and
+second sentence, make sure that you re-enter normal mode by hitting
+escape. Otherwise, Vim won't register it as an undoable chunk.
+
+Type here --> 

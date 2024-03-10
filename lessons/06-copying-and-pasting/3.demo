@@ -1,0 +1,8 @@
+Highlight a region of text in visual mode, yank it with y, then put it at the
+bottom of the file.
+
+    Copy a region of text from this paragraph -- any particular region that
+    takes your fancy. It could be this sentence. Or this sentence! Or even just
+    a word somewhere.
+
+    PUT YOUR SELECTION HERE -->

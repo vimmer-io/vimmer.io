@@ -1,0 +1,7 @@
+Try selecting a region of text below, then exiting visual mode by hitting
+escape. You'll be able to restore the visual selection using gv from normal
+mode.
+
+    Mistakes happen -- that's why it's great that Vim has keymaps that allow us
+    to quickly get back to where we were easily. gv is just one example of such
+    a keymap -- there are lots more that we're going to learn about!

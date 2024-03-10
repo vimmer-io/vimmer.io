@@ -1,0 +1,5 @@
+There's not really much to demo here, given that this is more general advice!
+
+One thing that you could try is overriding a default map -- try overriding the
+gg command in normal mode to the G command in normal mode. Now, gg takes you to
+the bottom of the file instead of the top.

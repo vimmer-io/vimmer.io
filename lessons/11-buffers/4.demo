@@ -1,0 +1,13 @@
+You know the drill!
+
+Load foo.txt, bar.txt, and baz.txt into buffers, then try out Vim's tab
+completion for buffer names.
+
+    :e foo.txt
+    :e bar.txt
+    :e baz.txt
+    (or just :args *.txt)
+
+Then:
+
+    :b <tab>

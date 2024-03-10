@@ -1,0 +1,16 @@
+
+First, create two new windows by either using:
+
+    :new
+
+    or
+
+    <C-w>n                                                      (in normal mode)
+
+twice!
+
+Once you've got two new windows open, try running
+
+    :tabnew
+
+to create a new tab. Look what happens!

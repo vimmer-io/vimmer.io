@@ -1,0 +1,7 @@
+Try experiment with the o keymap in visual mode below:
+
+    This is some example text for you to play with. Try selecting a region in
+    visual mode, then using the o key to jump to the other end. You'll notice
+    that it's possible to expand and contract your selection from both ends!
+    You can't do this with regular highlighting in other editors, which is
+    another reason why Vim is great.

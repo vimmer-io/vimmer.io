@@ -1,0 +1,10 @@
+Delete the first paragraph with dap, then navigate to the bottom of the file
+and put it with p.
+
+        This is the first paragraph. With your cursor somewhere inside here,
+        type dap to delete me and yank my contents to the default register.
+        Once I've disappeared, navigate to the very bottom of the file, and put
+        me back with p.
+
+        This is the second paragraph. Please leave me alone, I don't want to
+        die!

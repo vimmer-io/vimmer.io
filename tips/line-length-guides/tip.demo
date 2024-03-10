@@ -1,0 +1,11 @@
+# Represents an Animal that can make a sound. It has a name, age, and a sound that it can make.
+# Calling the `animal.speak()` function causes the animal to announce its name, age, and spound.
+class Animal:
+
+    def __init__(self, name, age, sound):
+        self.name = name
+        self.age = age
+        self.sound = sound
+
+    def speak(self):
+        print(f"{self.sound}! I am {self.name}, and I am {self.age} years old. What about you?")

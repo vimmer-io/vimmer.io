@@ -1,0 +1,24 @@
+
+function zebra() {
+    print("neigh")
+    print("I am stripey")
+}
+
+function dog() {
+    print("woof")
+    print("I am small")
+    print("But mighty")
+}
+
+function cat() {
+    print("meow")
+}
+
+function mouse() {
+    print("squeak")
+}
+
+function bird() {
+    print("squark")
+    print("*swoosh*")
+}

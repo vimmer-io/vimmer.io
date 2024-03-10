@@ -1,0 +1,12 @@
+Try jumping to the start of the line with ^ and _ below.
+
+    Jump to the start of this line with ^
+    Now jump to the start of this line with _
+
+Now, place your cursor anywhere on the lines below and try comparing what d^
+does with d_.
+
+    Use d^ on this line
+    Now, use d_ on this line
+
+See the difference? ^ is a characterwise motion, whereas _ is linewise.

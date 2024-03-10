@@ -1,0 +1,12 @@
+Delete the lines below, in order, and then examine the content of the number
+registers with the :reg command.
+
+        This is line number 1.
+        This is line number 2.
+        This is line number 3.
+        This is line number 4.
+        This is line number 5.
+
+Try recovering one of the lines you just deleted by putting from a number
+register below:
+

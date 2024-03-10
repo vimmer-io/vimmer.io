@@ -1,0 +1,11 @@
+First, run the following commands to create some windows:
+
+    :sp demo_a.txt
+    :sp demo_b.txt
+    :sp demo_c.txt
+
+Then, with your cursor in a window of your choice, run:
+
+    :tab sp
+
+To break out the window into a new tab!

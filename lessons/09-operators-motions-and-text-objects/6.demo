@@ -1,0 +1,31 @@
+Try combining the motions that we know with the operators we've just learned.
+
+As a reminder, these are some motions:
+
+- gg jumps to the top of the file
+- w jumps forward one word
+- fX jumps to the next X on the line
+
+As a reminder, these are the operators that we learned from earlier:
+- d for deleting
+- c for changing
+- y for yanking
+- gq for formatting
+- < and > for indenting
+
+Here's some text to try:
+
+    Tree whose stars them blessed fifth dry over in first sea saw earth she'd.
+    "Whales beginning darkness male seasons" upon she'd and darkness, green is
+    dominion dry beginning it fifth kind deep firmament have beginning divide.
+    Fruit living fourth (saying give so fowl) for gathered them said third
+    their seasons kind moving our fruit male had (don't sea bring).
+
+    Under likeness after deep abundantly created. "Thing". Winged their and
+    form void was night unto beginning very male moveth he light fruitful was
+    life subdue all dominion. Bring. Stars yielding. Two is seasons land
+    yielding you'll, land shall under, to grass. Stars rule green two which
+    seas said Bearing gathered seed us. Man Day for open over own dominion
+    isn't. After male, you're was air. Winged (two evening together created)
+    tree tree evening grass kind open lights own second creature yielding
+    fourth from of blessed all unto above thing.

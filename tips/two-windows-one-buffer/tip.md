@@ -1,0 +1,5 @@
+Windows in Vim represent a view of an underlying buffer. There is nothing stopping two _different_ windows having the _same underlying buffer_ though, which allows you to have two or more different views of the same file that you're working on.
+
+Here's a situation where this is useful: imagine you're working in a large file, and you're writing some new text at the _bottom_, but you want to keep the content at the _top_ visible for reference. If you're currently at the bottom of the document, you can create a new split (horizontal with `:sp` or vertical with `:vsp`), and scroll to the top of the document with `gg`. When you move back to your initial window, you can continue your work as before, this time with top of the file easily visible.
+
+**Try this out in the editor!** If you're not familiar with windows, don't worry — we've got a lesson coming soon, so [check out the homepage](https://vimmer.io). For now, you should know that `:sp` can be used to create a new horizontal split, `:vsp` creates a new vertical split, and `:wincmd w` cycles through the open windows.

@@ -1,0 +1,24 @@
+
+Set mark 'a on this line with ma
+
+
+
+
+
+Set mark 'b on this line with mb
+
+
+
+
+
+Set mark 'c on this line with mc
+
+
+
+
+
+All set with the marks? Try jumping between them with:
+
+    'a
+    'b
+    'c

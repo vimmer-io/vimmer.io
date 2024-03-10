@@ -1,0 +1,29 @@
+For each of the lines below, set the mark on the capitalised word.
+
+
+
+
+
+Set mark 'a on this LINE with ma
+
+
+
+
+
+SET mark 'b on this line with mb
+
+
+
+
+
+Set MARK 'c on this line with mc
+
+
+
+
+
+All set with the marks? Try jumping between them with:
+
+    `a
+    `b
+    `c

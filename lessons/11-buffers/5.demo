@@ -1,0 +1,12 @@
+Open foo.txt and bar.txt with either
+
+    :e foo.txt
+    :e bar.txt
+
+or:
+
+    :args *.txt
+
+Jump to foo.txt with the :b command, then jump to bar.txt with the :b command.
+
+C-^ should let you jump between the two files!

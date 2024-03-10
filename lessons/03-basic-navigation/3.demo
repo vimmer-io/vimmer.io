@@ -1,0 +1,22 @@
+Try using ^ and $ to jump to the start and the end of this line.
+
+
+
+
+
+Now try using I and A to insert new text at the start/end of this line.
+
+
+
+
+Now, from the start of this line, type fX to jump to the next X in the line.
+Then, try typing FX to get back again.
+
+
+
+
+
+The line below is full of Xs, Ys, and Zs. Try using the f/F commands, and
+repeating them with the ; key.
+
+X Y Z X Y Z X Y Z X Y Z X Y Z X Y Z X Y Z X Y Z X Y Z X Y Z X Y Z X Y Z

@@ -1,0 +1,9 @@
+Once again, open a.txt, b.txt, and c.txt with:
+
+    :e a.txt
+    :e b.txt
+    :e c.txt
+
+Once you've opened them all, use :ls to list the buffer numbers.
+
+Then, try jumping to a specific buffer number with :b <number>.

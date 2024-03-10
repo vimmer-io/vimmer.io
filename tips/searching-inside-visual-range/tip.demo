@@ -1,0 +1,15 @@
+The interesting line range starts below...
+
+-- BEGIN INTERESTING LINE RANGE --
+This is the interesting line range! All instances of the word foo should be
+picked up in here. So, this foo should be detected, and so should this foo!
+
+foo
+bar
+baz
+foo
+bar
+baz
+--  END INTERESTING LINE RANGE  --
+
+The interesting line range ended above!

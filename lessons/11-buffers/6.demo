@@ -1,0 +1,5 @@
+Open all of the text files in the current directory with:
+
+    :args *.txt
+
+Then try deleting some with :bd.

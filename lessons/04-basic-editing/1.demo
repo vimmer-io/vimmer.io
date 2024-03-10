@@ -1,0 +1,13 @@
+Move the cursor to the 'Name:' line in normal mode, then enter insert mode and
+type your name.
+
+Remember that you use the `i` key to enter insert mode, and the `<esc>` key to
+return to normal mode.
+
+        ..  type your name here!
+       /
+      v
+Name:  
+
+
+Great job!

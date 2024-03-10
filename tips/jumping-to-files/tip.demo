@@ -1,0 +1,11 @@
+
+The editor is pre-populated with files. The available files are listed below:
+
+    file1.txt
+
+    file2.txt
+
+    file3.txt
+
+Place your cursor on each of the filenames above and hit gf (in normal mode) to
+jump to them!

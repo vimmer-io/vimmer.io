@@ -1,0 +1,6 @@
+Yes!
+
+Great job! Now try switching between this buffer and the previous buffer with:
+
+    :bp             to go to the previous buffer
+    :bn             to go to the next buffer

@@ -1,0 +1,5 @@
+
+First, try opening dog.txt in a new tabpage with:
+
+    :tabedit dog.txt
+

@@ -1,0 +1,6 @@
+Awesome!
+
+Great job! You just opened a split!
+
+You should be able to see that there are two windows open in the same Vim
+session, each one peering into a different buffer.

@@ -1,0 +1,25 @@
+Make a change on this line.
+
+
+
+
+
+
+
+
+
+Make another change on this line.
+
+
+
+
+
+
+
+
+
+Finally, make a change on this line.
+
+Once you're done, try using the '. command in normal mode to take you back to
+where the last edit took place. You'll notice that it only lets you go one
+level back! That's a shame.
